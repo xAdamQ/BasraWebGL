@@ -10,12 +10,12 @@
   <title>Unity WebGL Player | Client_TDD</title>
 </head>
 
-<body style="text-align: center">
+<body style="margin: 0px; text-align: center">
 
   <canvas id="unity-canvas"
     style="background: #231F20"></canvas>
 
-  <script src="Build/webgl_fig_gzip_speed.loader.js"></script>
+  <script src="Build/webgl_high.loader.js"></script>
 
   <script>
 
@@ -102,9 +102,9 @@
     createUnityInstance(
       document.querySelector("#unity-canvas"),
       {
-        dataUrl: "Build/webgl_fig_gzip_speed.data.gz",
-        frameworkUrl: "Build/webgl_fig_gzip_speed.framework.js.gz",
-        codeUrl: "Build/webgl_fig_gzip_speed.wasm.gz",
+        dataUrl: "Build/webgl_high.data",
+        frameworkUrl: "Build/webgl_high.framework.js",
+        codeUrl: "Build/webgl_high.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Client_TDD",
