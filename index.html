@@ -15,7 +15,7 @@
   <canvas id="unity-canvas"
     style="background: #231F20"></canvas>
 
-  <script src="Build/myDefaults.loader.js"></script>
+  <script src="Build/gzip.loader.js"></script>
 
   <script>
 
@@ -102,9 +102,9 @@
     createUnityInstance(
       document.querySelector("#unity-canvas"),
       {
-        dataUrl: "Build/myDefaults.data",
-        frameworkUrl: "Build/myDefaults.framework.js",
-        codeUrl: "Build/myDefaults.wasm",
+        dataUrl: "Build/gzip.data.gz",
+        frameworkUrl: "Build/gzip.framework.js.gz",
+        codeUrl: "Build/gzip.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Client_TDD",
