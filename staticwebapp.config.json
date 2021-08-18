@@ -2,7 +2,7 @@
   "mimeTypes": {
     ".data.gz": "application/octet-stream",
     ".wasm.gz": "application/wasm",
-    ".js.gz": "application/wasm",
+    ".js.gz": "application/javascript",
     ".symbols.json.gz": "application/octet-stream"
   }
 }
