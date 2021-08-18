@@ -12,6 +12,8 @@
 
 <body style="margin: 0px; text-align: center">
 
+    <h2 id="loadingText" style="align-self:center; text-align:center"></h2>
+
   <canvas id="unity-canvas"
     style="background: #231F20"></canvas>
 
@@ -114,7 +116,11 @@
       },
       (progress) => {
         if (fbigSdkInitialized)
-          FBInstant.setLoadingProgress(progress * 100);
+              FBInstant.setLoadingProgress(progress * 100);
+
+          document.getElementById("loadingText").innerHTML = (progress * 100) + "%";
+
+          if (progress >= 1) document.getElementById("loadingText").remove();
       }
     );
 
