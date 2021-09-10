@@ -7,17 +7,15 @@
   <meta name="viewport"
     content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes">
 
-  <title>Unity WebGL Player | Client_TDD</title>
+  <title>Unity WebGL Player | بصره مع الاصدقاء</title>
 </head>
 
 <body style="margin: 0px; text-align: center">
 
-    <h2 id="loadingText" style="align-self:center; text-align:center"></h2>
-
   <canvas id="unity-canvas"
     style="background: #231F20"></canvas>
 
-  <script src="Build/myDefault.loader.js"></script>
+  <script src="Build/webgl_high.loader.js"></script>
 
   <script>
 
@@ -104,23 +102,19 @@
     createUnityInstance(
       document.querySelector("#unity-canvas"),
       {
-        dataUrl: "Build/myDefault.data",
-        frameworkUrl: "Build/myDefault.framework.js",
-        codeUrl: "Build/myDefault.wasm",
+        dataUrl: "Build/webgl_high.data",
+        frameworkUrl: "Build/webgl_high.framework.js",
+        codeUrl: "Build/webgl_high.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "Client_TDD",
+        productName: "بصره مع الاصدقاء",
         productVersion: "1.0",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       },
       (progress) => {
         if (fbigSdkInitialized)
-              FBInstant.setLoadingProgress(progress * 100);
-
-          document.getElementById("loadingText").innerHTML = (progress * 100) + "%";
-
-          if (progress >= 1) document.getElementById("loadingText").remove();
+          FBInstant.setLoadingProgress(progress * 100);
       }
     );
 

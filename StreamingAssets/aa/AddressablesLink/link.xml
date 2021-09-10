@@ -24,56 +24,68 @@
   <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider2D" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.UI.Mask" preserve="all" />
     <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
-    <type fullname="UnityEngine.UI.Button" preserve="all" />
-    <type fullname="UnityEngine.UI.Text" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
-    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
-    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
     <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Text" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
-    <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
   </assembly>
   <assembly fullname="MyScripts, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="RoomRequester" preserve="all" />
+    <type fullname="BlockingPanel" preserve="all" />
+    <type fullname="TurnTimer" preserve="all" />
+    <type fullname="ChallengeResponsePanel" preserve="all" />
+    <type fullname="PrizeView" preserve="all" />
+    <type fullname="SoundButton" preserve="all" />
+    <type fullname="Card" preserve="all" />
+    <type fullname="LevelUpPanel" preserve="all" />
+    <type fullname="FriendListChoiceButton" preserve="all" />
+    <type fullname="ShopItemStateView" preserve="all" />
+    <type fullname="MoneyAidButton" preserve="all" />
+    <type fullname="Shop" preserve="all" />
+    <type fullname="ChoiceButton" preserve="all" />
     <type fullname="MessageButton" preserve="all" />
     <type fullname="Ground" preserve="all" />
-    <type fullname="BlockingPanel" preserve="all" />
     <type fullname="PersonalActiveUserView" preserve="all" />
     <type fullname="TestClientStart" preserve="all" />
-    <type fullname="TurnTimer" preserve="all" />
     <type fullname="FullUserView" preserve="all" />
     <type fullname="Background" preserve="all" />
     <type fullname="ShopItem" preserve="all" />
     <type fullname="Player" preserve="all" />
+    <type fullname="AddMoneyPopup" preserve="all" />
     <type fullname="RoomUserView" preserve="all" />
     <type fullname="Oppo" preserve="all" />
-    <type fullname="Card" preserve="all" />
     <type fullname="FinalMuv" preserve="all" />
-    <type fullname="ShopItemStateView" preserve="all" />
     <type fullname="Front" preserve="all" />
-    <type fullname="MoneyAidButton" preserve="all" />
     <type fullname="Toast" preserve="all" />
     <type fullname="MinUserView" preserve="all" />
     <type fullname="RoomResultPanel" preserve="all" />
-    <type fullname="Shop" preserve="all" />
     <type fullname="Translatable" preserve="all" />
     <type fullname="FriendsView" preserve="all" />
     <type fullname="ChatSystem" preserve="all" />
-    <type fullname="ChoiceButton" preserve="all" />
+    <type fullname="LangSelector" preserve="all" />
   </assembly>
   <assembly fullname="RTLTMPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="RTLTMPro.RTLTextMeshPro" preserve="all" />
   </assembly>
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
