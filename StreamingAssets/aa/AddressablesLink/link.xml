@@ -29,8 +29,8 @@
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
-    <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
     <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Text" preserve="all" />
@@ -51,6 +51,7 @@
     <type fullname="PrizeView" preserve="all" />
     <type fullname="SoundButton" preserve="all" />
     <type fullname="Card" preserve="all" />
+    <type fullname="IapShop" preserve="all" />
     <type fullname="LevelUpPanel" preserve="all" />
     <type fullname="FriendListChoiceButton" preserve="all" />
     <type fullname="ShopItemStateView" preserve="all" />
@@ -67,8 +68,10 @@
     <type fullname="Player" preserve="all" />
     <type fullname="AddMoneyPopup" preserve="all" />
     <type fullname="RoomUserView" preserve="all" />
+    <type fullname="SignInPanel" preserve="all" />
     <type fullname="Oppo" preserve="all" />
     <type fullname="FinalMuv" preserve="all" />
+    <type fullname="LangSelector" preserve="all" />
     <type fullname="Front" preserve="all" />
     <type fullname="Toast" preserve="all" />
     <type fullname="MinUserView" preserve="all" />
@@ -76,7 +79,6 @@
     <type fullname="Translatable" preserve="all" />
     <type fullname="FriendsView" preserve="all" />
     <type fullname="ChatSystem" preserve="all" />
-    <type fullname="LangSelector" preserve="all" />
   </assembly>
   <assembly fullname="RTLTMPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="RTLTMPro.RTLTextMeshPro" preserve="all" />
