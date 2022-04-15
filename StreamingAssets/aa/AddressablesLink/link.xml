@@ -37,47 +37,48 @@
     <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
-    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
-    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
   </assembly>
   <assembly fullname="MyScripts, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="RoomRequester" preserve="all" />
+    <type fullname="BlockingPanel" preserve="all" />
+    <type fullname="TurnTimer" preserve="all" />
+    <type fullname="ChallengeResponsePanel" preserve="all" />
+    <type fullname="PrizeView" preserve="all" />
+    <type fullname="SoundButton" preserve="all" />
+    <type fullname="Card" preserve="all" />
+    <type fullname="IapShop" preserve="all" />
+    <type fullname="LevelUpPanel" preserve="all" />
+    <type fullname="FriendListChoiceButton" preserve="all" />
+    <type fullname="ShopItemStateView" preserve="all" />
+    <type fullname="MoneyAidButton" preserve="all" />
+    <type fullname="Shop" preserve="all" />
+    <type fullname="ChoiceButton" preserve="all" />
     <type fullname="MessageButton" preserve="all" />
     <type fullname="Ground" preserve="all" />
-    <type fullname="BlockingPanel" preserve="all" />
     <type fullname="PersonalActiveUserView" preserve="all" />
     <type fullname="TestClientStart" preserve="all" />
-    <type fullname="TurnTimer" preserve="all" />
     <type fullname="FullUserView" preserve="all" />
     <type fullname="Background" preserve="all" />
     <type fullname="ShopItem" preserve="all" />
     <type fullname="Player" preserve="all" />
-    <type fullname="ChallengeResponsePanel" preserve="all" />
     <type fullname="AddMoneyPopup" preserve="all" />
     <type fullname="RoomUserView" preserve="all" />
     <type fullname="SignInPanel" preserve="all" />
-    <type fullname="PrizeView" preserve="all" />
-    <type fullname="SoundButton" preserve="all" />
     <type fullname="Oppo" preserve="all" />
-    <type fullname="Card" preserve="all" />
-    <type fullname="LevelUpPanel" preserve="all" />
     <type fullname="FinalMuv" preserve="all" />
     <type fullname="LangSelector" preserve="all" />
-    <type fullname="FriendListChoiceButton" preserve="all" />
-    <type fullname="ShopItemStateView" preserve="all" />
     <type fullname="Front" preserve="all" />
-    <type fullname="MoneyAidButton" preserve="all" />
     <type fullname="Toast" preserve="all" />
     <type fullname="MinUserView" preserve="all" />
     <type fullname="RoomResultPanel" preserve="all" />
-    <type fullname="Shop" preserve="all" />
     <type fullname="Translatable" preserve="all" />
     <type fullname="FriendsView" preserve="all" />
     <type fullname="ChatSystem" preserve="all" />
-    <type fullname="ChoiceButton" preserve="all" />
   </assembly>
   <assembly fullname="RTLTMPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="RTLTMPro.RTLTextMeshPro" preserve="all" />
